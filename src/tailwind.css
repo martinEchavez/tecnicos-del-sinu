@@ -32,3 +32,9 @@ a:focus-visible, button:focus-visible {
     opacity: 0.75;
     cursor: not-allowed;
 }
+
+/* Marca de agua de la demo: «DEMO» en diagonal, repetido en toda la página */
+.marca-demo {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='240'%3E%3Ctext x='180' y='140' text-anchor='middle' transform='rotate(-30 180 120)' font-family='Arial,sans-serif' font-size='64' font-weight='900' letter-spacing='8' fill='%23111827' fill-opacity='0.09'%3EDEMO%3C/text%3E%3C/svg%3E");
+    background-repeat: repeat;
+}
