@@ -27,6 +27,7 @@ function initializeContactLinks() {
 
     if (!CONTACT_CONFIG.phone) {
         document.getElementById('demo-banner').classList.remove('hidden');
+        document.getElementById('demo-watermark').classList.remove('hidden');
         [...telLinks, ...waLinks].forEach(link => {
             link.removeAttribute('target');
             link.setAttribute('href', '#contacto');
